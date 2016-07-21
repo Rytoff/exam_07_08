@@ -15,7 +15,7 @@ h1, h2, h3, h4,
 	height: inherit;
 	margin: 0 auto;
 	
-	/*background-color: rgba(220,220,220,.5);*/
+	background-color: rgba(220,220,220,.15);
 }
 header	{
 	background-color: #c1c1c1;
@@ -58,8 +58,32 @@ header	{
 .header__slider	{
 	position: absolute;
 	left: 0; top: 280px;
-	height: 400px;
+	height: 378px;
 	width: 100%;
 	background-color: rgba(0,0,0,.35);
 	z-index: 999;
+}
+.header__slider__left h2	{
+	padding: 64px 0 0;
+	font-size: 396%;
+	font-weight: bold;
+}
+.header__slider__left h3	{
+	color: #edbfff;
+	padding-top: 2px;
+	font-size: 228%;
+	text-transform: uppercase;
+}
+.header__slider__left p	{
+	font-family: 'Alegreya Sans', sans-serif;
+	color: white;
+	font-size: 156%;
+	float: left;
+	width: 53%;
+	margin-top: 14px;
+}
+.header__slider__phone	{
+	position: relative;
+	right: -84px;
+	top: -184px;
 }
